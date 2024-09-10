@@ -1,0 +1,19 @@
+mysql execute.
+sh-4.2# mysql -uroot -p
+Enter password: confluent
+
+mysql> use connect_test;
+Database changed
+
+mysql> select * from movie_tb;
+
+
+
+Connect to Power BI
+mysql
+Server: localhost:3307
+Database: connect_test
+
+in credential page select database on the left side bar.
+username : confluent
+Password : confluent
