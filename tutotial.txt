@@ -7,6 +7,14 @@ Database changed
 
 mysql> select * from movie_tb;
 
+Create new column 
+ALTER TABLE movie_tb ADD COULUMN cid VARCHAR(10);
+
+Describe table
+DESCRIBE movie_tb;
+
+check user and host
+SELECT user, host FROM mysql.user;
 
 
 Connect to Power BI
